@@ -49,3 +49,9 @@ To verify your installation, open a browser tab:
   ```
 
 ## Links
+
+- [VueJS guide](https://vuejs.org/v2/guide/)
+- [Vuex](https://vuex.vuejs.org/en/)
+- [VueJS video tutorials](https://laracasts.com/series/learn-vue-2-step-by-step)
+- [Vue Devtools (Chrome plugin)](https://chrome.google.com/webstore/detail/vuejs-devtools/nhdogjmejiglipccpnnnanhbledajbpd)
+- 
