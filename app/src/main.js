@@ -3,13 +3,21 @@
 import Vue from 'vue'
 import App from './App'
 import router from './router'
+import store from './store'
 
-Vue.config.productionTip = false
+import EventBus from './helpers/event-bus.js';
+
+window.Event = new EventBus(new Vue());
+
+Vue.config.productionTip = false;
 
 /* eslint-disable no-new */
 new Vue({
   el: '#app',
+  store,
   router,
   template: '<App/>',
-  components: { App }
-})
+  components: {
+    App
+  }
+});

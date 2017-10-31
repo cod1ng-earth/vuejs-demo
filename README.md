@@ -5,53 +5,38 @@ _[Coding Berlin](https://www.meetup.com/CODING-BERLIN) Meetup (2017-11-01)_
 **Contents**
 
 - [Intro](#intro)
-- [Requirements](#requirements)
-- [Setup](#setup)
+- [Demos](#demos)
 - [Links](#links)
 
-### Intro
+## Intro
 
-This is a demo project for an introduction into [VueJS](https://vuejs.org/) .  
+This is a demo project for an introduction into [VueJS](https://vuejs.org/).  
+It includes an initial Vue application initialized using _vue-cli_ scaffolding.
 
-### Requirements
+### Requirements & setup
 
-For usage with Docker:
-
-- Docker CE  
-  [HowTo for Ubuntu](https://docs.docker.com/engine/installation/linux/ubuntu/#install-using-the-repository)   
-  [HowTo for MacOS](https://docs.docker.com/docker-for-mac/install/) 
-- docker-compose  
-  [HowTo for Ubuntu](https://docs.docker.com/compose/install/)   
-  [HowTo for MacOS](https://docs.docker.com/docker-for-mac/install/) 
-
-## Setup
-
-- Clone repository
-  ```
-  git clone https://github.com/coding-berlin/vuejs-demo/
-  cd vuejs-demo
-  ```
+See [setup documentation](./setup.md)
   
-- Run setup 
-  ```bash
-  make setup
-  ```
-    
-To verify your installation, open a browser tab:
+## Demos
 
-[http://localhost:8080/](http://localhost:8080/)
+After [setup](./setup.md) go to [http://localhost:8181/#/demo](http://localhost:8181/#/demo) to view some simple examples such as:
 
-## Start existing container
+- Conditionals with _v-if_ / _v-else_
+- Loops with _v-for_
+- Event binding (e.g. for _click_ or _keyup)
+- Slots
+- Routing
+- Vuex state management
 
-- Run setup 
-  ```bash
-  make start
-  ```
+and more.
+
+Have a look at the component implementation under _/src_ for more details.
 
 ## Links
 
 - [VueJS guide](https://vuejs.org/v2/guide/)
-- [Vuex](https://vuex.vuejs.org/en/)
+- [VueJS API](https://vuejs.org/v2/api/)
 - [VueJS video tutorials](https://laracasts.com/series/learn-vue-2-step-by-step)
 - [Vue Devtools (Chrome plugin)](https://chrome.google.com/webstore/detail/vuejs-devtools/nhdogjmejiglipccpnnnanhbledajbpd)
-- 
+- [Vuex](https://vuex.vuejs.org/en/)
+- [Vuex video tutorials](https://www.youtube.com/playlist?list=PL55RiY5tL51pT0DNJraU93FhMzhXxtDAo) 
