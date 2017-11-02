@@ -147,7 +147,7 @@
   }
 </script>
 
-<style type="text/scss">
+<style lang="scss">
   table {
     width: 60%;
     margin: auto 20%;
